@@ -3,71 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carmen Rhodes | Profile</title>
+    <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <h1>Carmen Rhodes</h1>
+    <header>
+        <h1>Carmen Rhodes</h1>
     <p>Aspiring Web Developer | Learning. Building. Growing.</p>
+    </header>
 
+    <section class="profile">
 <img src="images/headshot.jpg" alt="Photo of Carmen Rhodes" width="200">
 
-    <section>
-        <h2>About Me</h2>
-        <p> Hello! I am Carmen Rhodes - a mom, Brazilian Jiu-Jitsu Practitioner, and most recently, aspiring web developer. I love solving problems, learning new things, and finding creative ways to bring ideas to life. Through LaunchCode, I've been learning HTML, CSS, and JavaScript, and I'm excited to turn what I'm learning into real, user-friendly websites and applications.</p>
+        <div class="about">
+            <h2>About Me</h2>
+            <p> Hello! I am Carmen Rhodes - a mom, Brazilian Jiu-Jitsu Practitioner, and most recently, aspiring web developer. I love solving problems, learning new things, and finding creative ways to bring ideas to life. Through LaunchCode, I've been learning HTML, CSS, and JavaScript, and I'm excited to turn what I'm learning into real, user-friendly websites and applications.</p>
+        </div>
     </section>
 
-    <section>
-        <table border = "1">
-            <tr>
-                <th>Skills/Tools</th>
-                <th>Proficiency Level</th>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>Beginner</td>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>Beginner</td>
-            </tr>
-            <tr>
-                <td>Debugging</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr>
-                <td>Problem Solving</td>
-                <td>Advanced</td>
-            </tr>
-            <tr>
-                <td>Logical Thinking</td>
-                <td>Intermediate</td>
-            </tr>
-            <tr>
-                <td>Attention to Detail</td>
-                <td>Advanced</td>
-            </tr>
-        </table>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Attention to Detail - Advanced</li>
+            <li>CSS - Beginner</li>
+            <li>Debugging - Intermediate</li>
+            <li>HTML - Intermediate</li>
+            <li>JavaScript - Beginner</li>
+            <li>Logical Thinking - Intermediate</li>
+            <li>Problem Solving - Advanced</li>
+        </ul>
     </section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+  
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+  
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+  
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Carmen Rhodes | <a href="https://github.com/carmenrhodes" target="_blank">GitHub</a></p>
+    </footer>
 </body>
 </html>
-
-<section>
-<h2>Contact Me</h2>
-
-<form action="#" method="post">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-  
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-  
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" required></textarea><br><br>
-  
-    <button type="submit">Submit</button>
-  </form>
-</section>
